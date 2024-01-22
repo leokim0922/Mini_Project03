@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 from pymongo import MongoClient
 import requests
 
-client = MongoClient('13.125.243.221', 27017, username="test", password="test")
+client = MongoClient('', 27017, username="", password="")
 db = client.dbsparta_plus_week3
 
 driver = webdriver.Chrome('./chromedriver')
